@@ -1,0 +1,12 @@
+[
+{
+    "type" : "talk_topic",
+    "id" :"OMORI_KR",
+    "dynamic_line": "[Omori is not interested in communicating with you. Her deadly cold gaze tells you that if you don’t start talking about the matter now, you’ll end up as a side dish. Speak up or get lost]",
+    "responses":[
+     {"text" : "[Leave the kitchen]", "topic": " TALK_DONE"},
+     {"text" : "I want to buy something to eat", "topic":"TRADE_OMORI"}
+    ]
+
+}
+]

@@ -411,7 +411,7 @@
   },
   {
     "type": "npc",
-    "id": "kr_npc",
+    "id": "kr_Kraber_npc",
     "name_suffix": "member of Kurokumo",
     "class": "NC_KR",
     "attitude": 0,

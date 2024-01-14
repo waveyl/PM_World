@@ -1,0 +1,32 @@
+[
+    {
+    "type": "talk_topic",
+    "id": "KRABER_KR",
+    "dynamic_line": "[The Craber does not immediately pay attention to you. You are met by his serious gaze] What?...",
+    "responses": [
+      { "text": "Sorry, nothing", "topic": "TALK_DONE"},
+      { "text":"I'm looking for a job",  "topic": "QUEST_KRABER"},
+      { "text": "I would like to buy weapons or clothes, do you have anything to offer?", "topic": "PSEUDO_TRADE_KRABER"}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "QUEST_KRABER",
+    "dynamic_line": "You're just in time, buddy... We had an order from Carnival, and they stole the black silk. Find him, then we'll talk about the reward",
+    "responses": [
+      { "text": "OK I understood", "topic": "ACCEPT_QUEST_KRABER"},
+      { "text": "It’s all very muddy, I refuse", "topic": "TALK_DONE"}
+    ]
+  },
+  {
+    "type": "talk_topic",
+    "id": "PSEUDO_TRADE_KRABER",
+    "dynamic_line": "To do this, you need to contact Sayo-san, or Master Jin, or Master Yang. They are in charge of questions regarding the acquisition of things or weapons",
+    "responses": [
+      { "text": "OK I understood", "topic": "TALK_DONE"},
+      { "text":"Who are they?",  "topic": "BOSSES_KR"},
+      { "text": "...", "topic": "TALK_DONE"}
+    ]
+  }
+    
+]
