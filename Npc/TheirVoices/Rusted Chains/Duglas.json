@@ -45,6 +45,6 @@
     "dynamic_line" : "Then why the hell are you bothering me? Get out of here!",
     "responses" :[
         {"text" : "Calm down. Why are you so nervous?", "topic" : "FIGHT_DUGLAS"},
-        {"text" : "Alright, i'm leaving", "topic" : "TALK_DONE"}
+        {"text" : "Alright, i'm leaving", "topic" : "TALK_DONE"}]
 }
 ]
